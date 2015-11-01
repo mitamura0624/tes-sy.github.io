@@ -12,7 +12,7 @@ $color = <STDIN>;
 
 print "I like ".$color.".this color is god!\n";
 sleep 3;
-if ($color == "red" or $color == "blue"){
+if ($color eq "red" or $color eq "blue"){
 	print "hmm.I dont like this color.";	
 } else {
 	print "oh!nice color!";
